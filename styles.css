@@ -1,0 +1,166 @@
+  body, html {
+    font-family: Helvetica, sans-serif;
+    height: 100%;
+    margin: 0;
+  }
+
+  h1 {
+    font-family: 'Gloria Hallelujah';
+    font-size: 40px;
+    margin-bottom: 15px;
+  }
+
+  h2 {
+    font-family: 'Gloria Hallelujah';
+    font-size: 40px;
+    margin-bottom: 30px;
+    text-decoration: underline;
+  }
+
+  h3 {
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .lead {
+    font-weight: bold;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+  
+  .logo-banner {
+    background-color: #88B2CC;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .topnav {
+    background-color: #658EA9;
+    padding: 0px;
+  }
+
+  .topnav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  .topnav a:hover {
+    background-color: #E98973;
+    text-decoration: underline;
+  }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .bg-khaki {
+    background-color: #E7D3C0
+  }
+
+  .bg-white {
+    background-color: #ffffff
+  }
+
+  .bg-salmon {
+    background-color: #E98973;
+  }
+
+  .hero-image {
+    background-image: url("Media/images/fish-and-chips-hero-image.jpg");
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+ 
+
+  .hero-text {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(136, 178, 204, 0.85);
+    padding: 50px;
+    color: #ffffff;
+    border-radius: 5px;
+  }
+
+  .hero-text h1 {
+    font-size: 40px;
+    text-decoration: underline;
+  }
+
+  .hero-text button {
+    margin-top: 10px;
+    border: none;
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: #658EA9;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #ffffff;
+    }
+
+  .hero-text button:hover {
+    background-color: #E98973;
+    text-decoration: underline;
+    }
+
+  .sticky + .hero-image {
+    margin-top: 60px;
+  }
+
+  .fa-icon {
+    margin-right: 5px;
+  }
+
+  #menu-heading {
+    margin-top: 35px;
+  }
+
+  .menu {
+    border: 3px solid #E98973;
+    border-radius: 5px;
+    max-width: 540px;
+    margin-left: auto; 
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+
+  .menu h3 {
+    padding: 5px 0px 8px;
+    margin-bottom: 0px;
+  }
+
+  tr {
+    height: 50px;
+  }
+
+  tr:nth-child(even) {
+    background-color: rgb(238, 225, 197, 0.5);
+  }
+
+  @media only screen and (max-width: 576px) {
+    .hide-mobile {
+      display: none!important;
+    }
+
+    #menu-heading {
+      margin-top: 0px;
+    }
+  }
