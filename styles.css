@@ -47,6 +47,13 @@
     padding: 0px;
   }
 
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  
   .topnav a {
     float: left;
     color: #ffffff;
@@ -59,13 +66,6 @@
   .topnav a:hover {
     background-color: #E98973;
     text-decoration: underline;
-  }
-
-  .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1;
   }
 
   .bg-khaki {
