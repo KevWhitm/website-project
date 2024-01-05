@@ -129,7 +129,7 @@
     margin-right: 5px;
   }
 
-  #menu-heading {
+  #menu-heading, #find-us-heading {
     margin-top: 35px;
   }
 
@@ -153,6 +153,20 @@
 
   tr:nth-child(even) {
     background-color: rgb(238, 225, 197, 0.5);
+  }
+
+  .google-maps {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+  }
+  .google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
   }
 
   @media only screen and (max-width: 576px) {
